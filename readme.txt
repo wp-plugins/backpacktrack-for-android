@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AJSBB
 Tags: android, gpx, post, posts, maps, google, google maps, routes, tracks, geocode, geotag
 Requires at least: 3.1
 Tested up to: 3.2
-Stable tag: 0.0
+Stable tag: 0.1
 
 WordPress plugin and open source Android application to track and display your journeys
 
@@ -70,6 +70,10 @@ Other application options:
 
 Because the clock time of your device differs from the GPS time.
 
+= What do the numbers after the track name mean? =
+
+The first number is the number of waypoints and the second number is the number of trackpoints.
+
 = Where can I ask questions, report bugs and request features? =
 
 You can open a topic in the [support forum](http://forum.bokhorst.biz/backpacktrack-for-android/ "support forum").
@@ -98,4 +102,4 @@ Development version
 
 * The application icon was taken from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Map_symbol-pin.svg "Map symbol")
 * The marker pin icon was taken from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Exquisite-backpack.svg "Marker pin")
-* The [XML-RPC client side library for Android](http://code.google.com/p/android-xmlrpc/ "XML-RPC for Android") is used
+* The [XML-RPC client side library for Android](http://code.google.com/p/android-xmlrpc/ "XML-RPC for Android") is being used
