@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AJSBB
 Tags: android, gpx, post, posts, maps, google, google maps, routes, tracks, geocode, geotag
 Requires at least: 3.1
 Tested up to: 3.2
-Stable tag: 0.1
+Stable tag: 0.2
 
 WordPress plugin and open source Android application to track and display your journeys
 
@@ -91,13 +91,16 @@ The first number is the number of waypoints and the second number is the number 
 
 = Where can I ask questions, report bugs and request features? =
 
-You can report issues [here](https://github.com/M66B/BackPackTrack/issues "github - issues"). 
+You can report issues [here](https://github.com/M66B/BackPackTrack/issues "github - issues").
 
 == Screenshots ==
 
 1. BackPackTrack for Android
 
 == Changelog ==
+
+= 0.2 =
+* Bugfix: define gpx mime type as text/xml
 
 = 0.1 =
 * First public release
@@ -106,6 +109,9 @@ You can report issues [here](https://github.com/M66B/BackPackTrack/issues "githu
 * Development version
 
 == Upgrade Notice ==
+
+= 0.2 =
+One bugfix
 
 = 0.1 =
 First public release
