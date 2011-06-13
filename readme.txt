@@ -91,7 +91,7 @@ The first number is the number of waypoints and the second number is the number 
 
 = Where can I ask questions, report bugs and request features? =
 
-You can report issues [here](https://github.com/M66B/BackPackTrack/issues "github - issues").
+You can report issues [here](https://github.com/M66B/BackPackTrack/issues "github - issues"). 
 
 == Screenshots ==
 
