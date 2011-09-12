@@ -10,6 +10,8 @@ WordPress plugin and open source Android application to track and display your j
 
 == Description ==
 
+*Support for this plugin has been ended, read [here](http://wordpress.org/support/topic/protest-no-updates-for-this-plugin-the-next-30-days/page/2#post-2334777) why*
+
 The WordPress plugin extends the [WordPress XML-RPC](http://codex.wordpress.org/XML-RPC_Support "WordPress XML-RPC") protocol
 to enable the belonging Android application to create posts and
 to attach and update [GPX](http://www.topografix.com/gpx.asp "GPX") files.
