@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AJSBB
 Tags: android, gpx, post, posts, maps, google, google maps, routes, tracks, geocode, geotag
 Requires at least: 3.1
 Tested up to: 3.3.1
-Stable tag: 0.5
+Stable tag: 0.5.1
 
 WordPress plugin and open source Android application to track and display your journeys
 
@@ -102,6 +102,9 @@ You can report issues [here](https://github.com/M66B/BackPackTrack/issues "githu
 
 == Changelog ==
 
+= 0.5.1 =
+* Fixed internal storage location
+
 = 0.5 =
 * New feature: auto update GPX file (option)
 
@@ -126,6 +129,9 @@ You can report issues [here](https://github.com/M66B/BackPackTrack/issues "githu
 * Development version
 
 == Upgrade Notice ==
+
+= 0.5.1 =
+One bugfix
 
 = 0.5 =
 One new features
