@@ -3,13 +3,13 @@
 Plugin Name: BackPackTrack
 Plugin URI: http://wordpress.org/extend/plugins/backpacktrack-for-android/
 Description: BackPackTrack XML-RPC methods
-Version: 0.5.1
+Version: 0.6
 Author: Marcel Bokhorst
 Author URI: http://blog.bokhorst.biz/about/
 */
 
 /*
-	Copyright 2011 Marcel Bokhorst
+	Copyright 2011, 2012 Marcel Bokhorst
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
