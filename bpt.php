@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: BackPackTrack
-Plugin URI: http://wordpress.org/extend/plugins/backpacktrack-for-android/
+Plugin URI: https://github.com/M66B/BackPackTrackII
 Description: BackPackTrack XML-RPC methods
-Version: 0.6
+Version: 0.8
 Author: Marcel Bokhorst
 Author URI: http://blog.bokhorst.biz/about/
 */
 
 /*
-	Copyright 2011, 2012 Marcel Bokhorst
+	Copyright 2011-2015 Marcel Bokhorst
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -26,8 +26,10 @@ Author URI: http://blog.bokhorst.biz/about/
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+// https://codex.wordpress.org/XML-RPC_Extending
 add_filter('xmlrpc_methods', 'bpt_xmlrpc_methods');
-add_filter('plugin_action_links', 'bpt_action_links', 10, 2);
+
+// https://codex.wordpress.org/Plugin_API/Filter_Reference/upload_mimes
 add_filter('upload_mimes', 'bpt_upload_mimes');
 
 function bpt_xmlrpc_methods($methods) {
@@ -70,7 +72,10 @@ function bpt_upload($args) {
 			return new IXR_Error(500, $error);
 
 		// Find post
-		$attached = $wpdb->get_row("SELECT ID, post_parent FROM {$wpdb->posts} WHERE post_title = '{$name}' AND post_type = 'attachment'");
+		$attached = $wpdb->get_row(
+			"SELECT ID, post_parent FROM {$wpdb->posts}" .
+			" WHERE post_title = '{$name}'" .
+			" AND post_type = 'attachment'");
 		if (empty($attached)) {
 			get_currentuserinfo();
 			global $user_ID;
@@ -126,14 +131,6 @@ function bpt_upload($args) {
 function bpt_upload_mimes($mimes) {
 	$mimes['gpx'] = 'text/xml';
 	return $mimes;
-}
-
-function bpt_action_links($links, $file) {
-	if ($file == plugin_basename(__FILE__)) {
-		$url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AJSBB7DGNA3MJ&lc=US&item_name=BackPackTrack%20for%20Android&item_number=Marcel%20Bokhorst&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted';
-		$links[] = '<a href="' . $url . '" target="_blank">Donate</a>';
-	}
-	return $links;
 }
 
 ?>
