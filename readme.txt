@@ -9,7 +9,7 @@ WordPress plugin and open source Android application to track your journeys
 
 == Description ==
 
-Companion plugin for the Android application [BackPackTrack II](https://play.google.com/store/apps/details?id=eu.faircode.backpacktrack2)
+Companion plugin for the Android application [BackPackTrack II](https://play.google.com/store/apps/details?id=eu.faircode.backpacktrack2).
 
 == Installation ==
 
